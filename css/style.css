@@ -2,4 +2,118 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+header{
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+header img{
+  width: 70px;
+  vertical-align: middle;
+}
+
+header span{
+  font-size: 60px;
+  vertical-align: middle;
+}
+
+.container-sfondo{
+  background-color: #f6f8f9;
+  width: 100%;
+  height: 100vh;
+  padding-top: 50px;
+  
+}
+
+.container{
+  width: 50%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+button{
+  margin-left: 60px;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+.container-pulsanti{
+  border-bottom: 3px solid #f6f8f9;
+  padding: 5px;
+  
+  
+}
+
+.button-1{
+  padding: 5px;
+  border-radius: 20%;
+  background-color: #47adf1;
+  color: white;
+  font-size: 12px;
+}
+
+.button-2{
+  padding: 5px;
+  border-radius: 1x;
+  background-color: white;
+  color: grey;
+  font-size: 12px;
+  
+}
+
+.new-task{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* .new-task span{
+  font-size: 15px;
+} */
+
+section span{
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  display: inline-block;
+  
+}
+
+.spunta{
+  color: green;
+  border: 1px solid green;
+  border-radius: 50%;
+}
+
+.croce{
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  
+}
+
+.bottone-blu{
+  background-color: #47adf1;
+}
+
+.bottone-viola{
+  background-color: purple;
+}
+
+.bottone-verde{
+  background-color: green;
+}
+
+.bottone-arancione{
+  background-color: orange;
+}
+
+.bottone-rosa{
+  background-color: pink;
+}
+
+.bottone-verdechiaro{
+  background-color: greenyellow;
 }
