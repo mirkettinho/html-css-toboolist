@@ -73,6 +73,10 @@ button{
   font-size: 15px;
 } */
 
+section{
+  margin-left: 0px;
+}
+
 section span{
   font-size: 15px;
   padding-top: 10px;
